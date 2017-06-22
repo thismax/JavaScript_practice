@@ -1,5 +1,3 @@
-// given a string, return an array of the two longest words
-
 function twoLongest(input_string) {
   
   var words = input_string.split(' ')
