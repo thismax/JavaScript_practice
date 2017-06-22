@@ -14,7 +14,7 @@ Searches a soreted array for a specified value by taking the following steps:
 
 chunkString
 ---------------------
-Takes a string and an integer paramenter `n` as input and returns an array of strings, wherein each element is an `n` sized chunk of the origninal string.
+Takes a string and an integer paramenter `n` as input and returns an array of strings, wherein each element is an `n`-sized chunk of the origninal string.
 
 ```javascript
 chunkString('When you come to a fork in the road, take it.', 4) //=> [ 'When', ' you', ' com', 'e to', ' a f', 'ork ', 'in t', 'he r', 'oad,', ' tak', 'e it', '.' ]
@@ -29,6 +29,13 @@ Takes a multidimensional array's elements and returns them in a one-dimensional 
 
 largestOrLongest
 ---------------------
+
+Takes a mixed array with strings and numbers and returns either the longest string or the largest number.  The longest string is returned if its length is greater than the largest number.
+
+```javascript
+largestOrLongest(['Stockholm',1,'Oslo',8]) //=> 'Stockholm'
+largestOrLongest(['Stockholm',1,'Oslo',9]) //=> '9'
+```
 
 maxMinAvg
 ---------------------
@@ -62,8 +69,6 @@ Takes an integer and returns the sum of its digits.  If the integer is negative,
 ```javascript
 sumDigits(-182374) //=> 23 (-1+8+2+3+7+4=23)
 ```
-
-
 
 twoLongest
 ---------------------
