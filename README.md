@@ -14,6 +14,12 @@ Searches a soreted array for a specified value by taking the following steps:
 
 chunkString
 ---------------------
+Takes a string and an integer paramenter `n` as input and returns an array of strings, wherein each element is an `n` sized chunk of the origninal string.
+
+```javascript
+chunkString('When you come to a fork in the road, take it.', 4) //=> [ 'When', ' you', ' com', 'e to', ' a f', 'ork ', 'in t', 'he r', 'oad,', ' tak', 'e it', '.' ]
+```
+
 
 flatten
 ---------------------
