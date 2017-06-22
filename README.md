@@ -42,8 +42,16 @@ twoLongest
 Takes a string of English words seperated by spaces (also known as a sentence) and returns an array of the two longest words.
 
 ```javascript
-twoLongest("However beautiful the strategy, you should occasionally look at the results.") //=> [ 'occasionally', 'strategy,' ]
+twoLongest('However beautiful the strategy, you should occasionally look at the results.') //=> [ 'occasionally', 'strategy,' ]
 ```
 
 xbonacci
 ---------------------
+
+The fibonacci sequence takes the previous two numbers in the sequence and add them together to create the next number.  In xbonacci, the sum of the previous `x` numbers (instead of the previous 2 numbers) of the sequence becomes the next number in the sequence.  This method takes two arguments: the starting sequence with `x` number of elements and an integer `n`. The method then returns the first `n` elements in the given sequence.
+
+```javascript
+xbonacci([1, 1], 5) => [1, 1, 2, 3, 5]
+xbonacci([1, 1, 1, 1], 8) => [1, 1, 1, 1, 4, 7, 13, 25]
+```
+
