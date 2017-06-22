@@ -1,5 +1,3 @@
-// Given a mixed array w/ strings and numbers, return the longest string if the length of the string is larger than any number present in the array.  Else, return the largest number.
-
 function largestOrLongest (mixedArray) {
   
   var strings = []

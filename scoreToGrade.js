@@ -1,4 +1,4 @@
-function convertScoreToGradeWithPlusAndMinus(score) {
+function scoreToGrade(score) {
   var letterGrade = ""
   if (score <= 100 && score >= 90) letterGrade = "A";
   else if (score <= 89 && score >= 80) letterGrade = "B";
@@ -19,5 +19,3 @@ function convertScoreToGradeWithPlusAndMinus(score) {
   if (score <= 59) return "F";
   return letterGrade;
 }
-
-convertScoreToGradeWithPlusAndMinus(69)

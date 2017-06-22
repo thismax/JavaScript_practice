@@ -20,7 +20,6 @@ Takes a string and an integer paramenter `n` as input and returns an array of st
 chunkString('When you come to a fork in the road, take it.', 4) //=> [ 'When', ' you', ' com', 'e to', ' a f', 'ork ', 'in t', 'he r', 'oad,', ' tak', 'e it', '.' ]
 ```
 
-
 flatten
 ---------------------
 
@@ -33,12 +32,18 @@ largestOrLongest
 Takes a mixed array with strings and numbers and returns either the longest string or the largest number.  The longest string is returned if its length is greater than the largest number.
 
 ```javascript
-largestOrLongest(['Stockholm',1,'Oslo',8]) //=> 'Stockholm'
-largestOrLongest(['Stockholm',1,'Oslo',9]) //=> '9'
+largestOrLongest(['Stockholm', 1,'Oslo', 8]) //=> 'Stockholm'
+largestOrLongest(['Stockholm', 1,'Oslo', 9]) //=> 9
 ```
 
 maxMinAvg
 ---------------------
+
+Takes an array of integers and returns an array containing the maximum value, minimum value, and average of the input array's elements, in that order.
+
+```javascript
+maxMinAvg([1,2,3,4,5,6]) //=> [ 6, 1, 3.5 ]
+```
 
 nextPrimes
 ---------------------
@@ -60,7 +65,11 @@ detectOutlierValue("1 3 5 6 7") //=> 4, since the fourth number is even while th
 
 scoreToGrade
 ---------------------
+Takes a percentage and returns a letter grade.
 
+```javascript
+scoreToGrade(79) //=> 'C+'
+```
 
 sumDigits
 ---------------------
