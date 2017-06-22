@@ -44,7 +44,7 @@ sumDigits
 ---------------------
 Takes an integer and returns the sum of its digits.  If the integer is negative, the leading digit is assumed to be negative for purposes of summation.
 
-```
+```javascript
 sumDigits(-182374) //=> 23 (-1+8+2+3+7+4=23)
 ```
 
