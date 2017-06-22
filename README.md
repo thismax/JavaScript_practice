@@ -21,6 +21,12 @@ maxMinAvg
 nextPrimes
 ---------------------
 
+Takes an array of integers and determines if an element in the array is prime.  If it is, that element is changed to the next largest prime.  Returns the updated array.
+
+```javascript
+nextPrimes([5,6,7,8,9,10]) //=> [ 7, 6, 11, 8, 9, 10 ]
+```
+
 oddEvenOutlier
 ---------------------
 

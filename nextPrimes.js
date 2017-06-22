@@ -1,6 +1,6 @@
 function isPrime(n) {
 
-	var counter === 0
+	var counter = 0;
 
 	for (var i = 2 ; i < n ; i++) {
 		if (n%i === 0) counter += 1;
