@@ -3,6 +3,15 @@
 binarySearch
 ---------------------
 
+Searches a soreted array for a specified value by taking the following steps:
+
+1. Select the midpoint.
+2. If the specified value is higher than the midpoint, consider the upper half of the array.  Else, consider the lower half.
+3. Pick the midpoint of the new array and repeat.
+4. If, at any point, the current value matches our specified value, return its index.
+5. Return null if the value is not found.
+
+
 chunkString
 ---------------------
 
