@@ -6,6 +6,6 @@ function sumDigits(num) {
   
   if (isNeg) numbers[0] *= -1;
   
-  return numbers.reduce(function(a,b){ return a + b; });
+  return numbers.reduce(function(a,b){return a + b;});
   
 }

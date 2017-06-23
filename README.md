@@ -42,7 +42,7 @@ maxMinAvg
 Takes an array of integers and returns an array containing the maximum value, minimum value, and average of the input array's elements, in that order.
 
 ```javascript
-maxMinAvg([1,2,3,4,5,6]) //=> [ 6, 1, 3.5 ]
+maxMinAvg([1, 2, 3, 4, 5, 6]) //=> [ 6, 1, 3.5 ]
 ```
 
 nextPrimes
@@ -51,7 +51,7 @@ nextPrimes
 Takes an array of integers and determines if an element in the array is prime.  If it is, that element is changed to the next largest prime.  Returns the updated array.
 
 ```javascript
-nextPrimes([5,6,7,8,9,10]) //=> [ 7, 6, 11, 8, 9, 10 ]
+nextPrimes([5, 6, 7, 8, 9, 10]) //=> [ 7, 6, 11, 8, 9, 10 ]
 ```
 
 oddEvenOutlier
@@ -73,7 +73,7 @@ scoreToGrade(79) //=> 'C+'
 
 sumDigits
 ---------------------
-Takes an integer and returns the sum of its digits.  If the integer is negative, the leading digit is assumed to be negative for purposes of summation.
+Takes an integer and returns the sum of its digits.  If the input is negative, the leading digit is assumed to be negative for purposes of summation.
 
 ```javascript
 sumDigits(-182374) //=> 23 (-1+8+2+3+7+4=23)

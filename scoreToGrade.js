@@ -1,5 +1,7 @@
 function scoreToGrade(score) {
+
   var letterGrade = ""
+
   if (score <= 100 && score >= 90) letterGrade = "A";
   else if (score <= 89 && score >= 80) letterGrade = "B";
   else if (score <= 79 && score >= 70) letterGrade = "C";
@@ -17,5 +19,7 @@ function scoreToGrade(score) {
   
   if (score === 100) return "A+";
   if (score <= 59) return "F";
+
   return letterGrade;
+  
 }
