@@ -3,7 +3,7 @@
 binarySearch
 ---------------------
 
-Searches a soreted array for a specified value by taking the following steps:
+Searches a sorted array of integers for a requested value in the following way:
 
 1. Select the midpoint.
 2. If the specified value is higher than the midpoint, consider the upper half of the array.  Else, consider the lower half.
@@ -14,7 +14,7 @@ Searches a soreted array for a specified value by taking the following steps:
 
 chunkString
 ---------------------
-Takes a string and an integer paramenter `n` as input and returns an array of strings, wherein each element is an `n`-sized chunk of the origninal string.
+Takes a string and an integer parameter `n` as input and returns an array of strings in which each element is an `n`-sized chunk of the original string.
 
 ```javascript
 chunkString('When you come to a fork in the road, take it.', 4) //=> [ 'When', ' you', ' com', 'e to', ' a f', 'ork ', 'in t', 'he r', 'oad,', ' tak', 'e it', '.' ]
@@ -57,10 +57,10 @@ nextPrimes([5,6,7,8,9,10]) //=> [ 7, 6, 11, 8, 9, 10 ]
 oddEvenOutlier
 ---------------------
 
-Takes a string of even and odd numbers seperated by single spaces and returns the location of either the sole even or sole odd number.
+Takes a string of even and odd numbers separated by single spaces and returns the location of either the sole even or sole odd number.
 
 ```javascript
-detectOutlierValue("1 3 5 6 7") //=> 4, since the fourth number is even while the rest are odd.
+detectOutlierValue('1 3 5 6 7') //=> 4, since the fourth number is even while the rest are odd.
 ```
 
 scoreToGrade
@@ -81,7 +81,7 @@ sumDigits(-182374) //=> 23 (-1+8+2+3+7+4=23)
 
 twoLongest
 ---------------------
-Takes a string of English words seperated by spaces (also known as a sentence) and returns an array of the two longest words.
+Takes a string of English words separated by spaces (also known as a sentence) and returns an array of the two longest words.
 
 ```javascript
 twoLongest('However beautiful the strategy, you should occasionally look at the results.') //=> [ 'occasionally', 'strategy,' ]
